@@ -13,12 +13,12 @@ Koomgs est un site de présentation des oeuvres de l'artiste numérique freelanc
 * Docker-compose
 
 Vous pouvez vérifier les pré-requis (sauf Docker et Docker-compose) avec la commande suivante (de CLI Symfony) :
-'''bash
+...bash
 symfony check:requirements
-'''
+...
 
 ### Lancer l'environnement de développement
-'''bash
+...bash
 docker-compose up -d
 symfony serve -d
-'''
+...
